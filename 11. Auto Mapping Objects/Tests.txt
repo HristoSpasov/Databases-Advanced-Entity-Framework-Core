@@ -1,0 +1,37 @@
+----First----
+
+AddEmployee Ivan Ivanov 1000
+EmployeeInfo 1
+EmployeePersonalInfo 1
+SetBirthday 1 15-04-1976
+SetAddress 1 Sofia, ul. Vitosha 15
+EmployeeInfo 1
+EmployeePersonalInfo 1
+Exit
+
+----------------------------------------
+----Second----
+AddEmployee Steve Jobbsen 10000
+AddEmployee Stephen Bjorn 4300
+AddEmployee Kirilyc Lefi 4400
+SetManager 2 1
+SetManager 3 1
+ManagerInfo 1
+Exit
+
+----------------------------
+
+----Third----
+AddEmployee Steve Jobbsen 6000.20
+SetBirthday 1 15-04-1966
+AddEmployee Stephen Bjorn 4300
+SetBirthday 2 15-04-1986
+AddEmployee Kirilyc Lefi 4400
+SetBirthday 3 15-04-1996
+SetManager 2 1
+SetManager 3 1
+ListEmployeesOlderThan 70
+ListEmployeesOlderThan 35
+ListEmployeesOlderThan 25
+ListEmployeesOlderThan 15
+Exit
